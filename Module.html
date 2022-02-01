@@ -1,1 +1,76 @@
 
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Liquid Layout</title>
+		<style type="text/css">
+			* {
+				
+				font-family: Arial, Verdana, sans-serif;
+				color: #665544;
+				text-align: center;}
+			body {
+				background-image: url(https://th.bing.com/th/id/R.79ac445e0ef8e51b222a591ae60e0197?rik=SEmPv8YYeD9v1g&riu=http%3a%2f%2fwww.wallpapers13.com%2fwp-content%2fuploads%2f2016%2f01%2fBackground-Landscape-Lake-shore-stones-wood-Sunset-1920x1440.jpg&ehk=k15gMcYImQhM4IPPJCQdb2KCXoPCGgXgIiqZXIVOJGw%3d&risl=&pid=ImgRaw&r=0);
+				width: 90%;
+				margin: 0 auto;}
+			#content {
+				overflow: auto;}
+			#nav, #feature, #footer {
+				margin: 1%;}
+			.column1, .column2, .column3 {
+				width: 31.3%;
+				float: left;
+				margin: 1%;}
+			.column3 {
+				margin-right: 0%;}
+			li {
+				display: inline;
+				padding: 0.5em;}
+			#nav, #footer {
+				background-color: #efefef;
+				padding: 0.5em 0;}
+			#feature, .article {
+				height: 10em;
+				margin-bottom: 1em;
+				background-color: #efefef;}
+		</style>
+	</head>
+	<body>
+		
+		<div id="header">
+			<h1>MODULES</h1>
+			<div id="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="About.html">About</a></li>
+					<li><a href="coursework.html">Classes</a></li>
+					<li><a href="Artifacts.html">Artifacts</a></li>
+					<li><a href="Module.html">modules</a></li>
+					<li><a href="Contact.html">Contact</a></li>
+					<li><a href="Interests.html">Intrests</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="content">
+			<div id="feature">
+				<p>Feature
+					
+<h2>Modules of Prog 109.</h2>
+				</p>
+			</div>
+			<div class="article column1">
+				<p>Column One</p>
+			</div>
+			<div class="article column2">
+				<p>Column Two</p>
+			</div>
+			<div class="article column3">
+				<p>Column Three</p>
+			</div>
+		</div>
+		<div id="footer">
+			<p>&copy; Copyright 2011</p>
+		</div>
+	</body>
+</html>
+
